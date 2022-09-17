@@ -9,7 +9,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>Next.js Sample App</title>
+        <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
